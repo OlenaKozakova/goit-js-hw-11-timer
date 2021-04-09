@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 150px;
+  font-family: 'RocknRoll One', sans-serif;
+}
+
+.data-title {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 100%;
+  color: #28104e;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.field {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.value {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #28104e;
+  background-color: rgb(172, 172, 199);
+  font-size: 70px;
+  border-radius: 12%;
+  margin-bottom: 10px;
+}
+.label {
+  font-family: 'Dancing Script', cursive;
+  font-size: 30px;
+  line-height: 165%;
+  color: #28104e;
+  text-align: inherit;
+}
